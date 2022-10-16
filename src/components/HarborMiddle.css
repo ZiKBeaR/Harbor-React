@@ -1,0 +1,78 @@
+.middle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #28514F;
+}
+
+.middle-items-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.finger-like-icon {
+  margin-top: -8%;
+  margin-bottom: 10%;
+}
+.fingericon{
+  background-image: url(./Png/FingerLikeIcon.png);
+  background-repeat: no-repeat;
+  height: 196px;
+  width: 173px;
+}
+
+.middle-texts h1 {
+  width: 583px;
+  height: 112px;
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #FFFFFF; 
+  margin-bottom: 5%;
+}
+
+.middle-texts p {
+  width: 650px;
+height: 64px;
+font-family: sans-serif;
+font-size: 20px;
+line-height: 32px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.middle-learn-btn {
+  height: 55px;
+background: #FFFFFF;
+border-radius: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 0 32px;
+margin: 3%;
+cursor: pointer;
+}
+
+.middle-learn-btn:hover {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+}
+
+.middle-img {
+  border: 0px solid red;
+  margin-top: 3%;
+}
+
+.imgmountine {
+  background-image: url(./Png/ImageMountine.png);
+  background-repeat: no-repeat;
+  height: 270px;
+  width: 1443px;
+  background-size: 100%;
+}
